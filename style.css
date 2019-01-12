@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    height: 637.5px;
+    width: 960px;
+    background-image: url('quote.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px auto;
+}
+
+
+.calculator {
+    background-color: aqua;
+    width: 254px;
+    height: 433px;
+    position: relative;
+    top: 97px;
+    left: 39px;
+    /* iphone screen slight crooked */
+    -ms-transform: rotate(0.4deg);
+    -webkit-transform: rotate(0.4deg);
+    transform: rotate(0.4deg);
+    border-radius: 3px;
+}
