@@ -1,5 +1,5 @@
 # JavaScript Calculator [Try it out]( https://ericvargas.github.io/calculator/)
 
-## Inspired from IPhone calculator app
+## Inspired from Iphone calculator app
 
-![calc](calc.jpg)
+<img src="calc.jpg" width="300">

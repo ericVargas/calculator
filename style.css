@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,400');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@ html,
 body {
     height: 100%;
     color: #fff;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .container {
@@ -46,6 +49,7 @@ body {
     text-align: right;
     font-size: 3.8rem;
     padding-right: 8px;
+    font-weight: 200;
 }
 
 .keys {
@@ -54,11 +58,12 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 8px;
     margin: 8px;
+    font-size: 1.3rem;
 }
 
 .keys div {
     text-align: center;
-    padding-top: 30%;
+    padding-top: 25%;
     border-radius: 50%;
 }
 
