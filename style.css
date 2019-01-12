@@ -25,9 +25,54 @@ body {
     position: relative;
     top: 97px;
     left: 39px;
-    /* iphone screen slight crooked */
+    /* iphone screen slightly crooked */
     -ms-transform: rotate(0.4deg);
     -webkit-transform: rotate(0.4deg);
     transform: rotate(0.4deg);
     border-radius: 3px;
 }
+
+.status {
+    background-color: brown;
+    font-size: 0.8rem;
+    text-align: center;
+    color: aliceblue;
+    height: 4%;
+}
+
+.display {
+    background-color: chartreuse;
+    height: -6%;
+    padding-top: 15%;
+    text-align: right;
+    font-size: 3.8rem;
+    
+}
+
+.keys {
+    background-color: coral;
+    height: 67%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+    margin: 8px;
+}
+
+.keys div {
+    background-color: cadetblue;
+    color: #fff;
+    text-align: center;
+    padding-top: 30%;
+    border-radius: 50%;
+}
+
+#zero{
+    grid-column: span 2;
+    padding-top: 15%;
+    border-radius: 100px;
+    text-align: left;
+    padding-left: 20%;
+}
+
+
+
