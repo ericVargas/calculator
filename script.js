@@ -18,6 +18,25 @@ let power = document.getElementById('power');
 
 navigator.getBattery().then(function (battery) {
     let level = battery.level;
-    let currentPower = (level * 100) + "%";
+    let currentPower = (Math.round(level * 100)) + "%";
     power.innerHTML = currentPower;
 });
+
+
+// CALCULATOR
+let calcArray = [];
+let calcDisplay = document.getElementById('display');
+let btn = document.getElementsByClassName('btn');
+
+Object.entries(btn).map((object) => {
+
+    object[1].addEventListener("click", function () {
+
+        if(this.classList.contains("num")=== true){
+            calcDisplay.innerHTML = this.innerHTML;
+        }
+        console.log("This is " + this.innerHTML);
+    });
+});
+
+

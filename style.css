@@ -59,7 +59,7 @@ body {
     justify-self: end;
 }
 
-.display {
+#display {
     height: -6%;
     padding-top: 13%;
     text-align: right;
@@ -81,6 +81,10 @@ body {
     text-align: center;
     padding-top: 25%;
     border-radius: 50%;
+}
+
+.keys div:hover {
+    cursor: pointer;
 }
 
 #zero {
@@ -110,7 +114,7 @@ body {
 footer{
     width: 960px;
     background-color: none;
-    margin: 15px auto; /*-0.5px auto 35px;*/
+    margin: 15px auto;
     text-align: center;
     padding: 20px 0;
     color: #F5E3D5;
