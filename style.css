@@ -10,7 +10,7 @@ body {
     height: 100%;
     color: #fff;
     font-family: 'Work Sans', sans-serif;
-    background-image: url('wood.jpg');
+    background-image: url('marble.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -117,6 +117,6 @@ footer{
     margin: 15px auto;
     text-align: center;
     padding: 20px 0;
-    color: #F5E3D5;
+    color: #0A2826; /*#F5E3D5;*/
     font-size: 1.3rem;
 }

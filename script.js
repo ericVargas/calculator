@@ -14,11 +14,11 @@ function updateTime() {
 setInterval(updateTime, 1000);
 
 // POWER
-let power = document.getElementById('power');
+let power = document.getElementById('pSpan');
 
 navigator.getBattery().then(function (battery) {
     let level = battery.level;
-    let currentPower = (Math.round(level * 100)) + "%";
+    let currentPower = (Math.round(level * 100)) + "% ";
     power.innerHTML = currentPower;
 });
 
