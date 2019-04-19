@@ -111,12 +111,66 @@ body {
     background-color: #FE9500;
 }
 
-footer{
+footer {
     width: 960px;
     background-color: none;
     margin: 15px auto;
     text-align: center;
     padding: 20px 0;
-    color: #0A2826; /*#F5E3D5;*/
+    color: #0A2826;
+    /*#F5E3D5;*/
     font-size: 1.3rem;
+}
+
+@media only screen and (max-device-width : 555px) {
+    .container {
+        height: 49vh;
+        width: 49vw;
+        background: #fff;
+        margin: 0;
+        border-radius: 0px;
+    }
+
+    .calculator {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        border-radius: 0;
+    }
+
+    .status {
+        font-size: 0.8rem;
+        font-weight: 400;
+        height: 3%;
+        padding-top: 5px;
+    }
+
+    #display {
+        height: -6%;
+        padding-top: 16%;
+        font-size: 6rem;
+        padding-right: 8px;
+        font-weight: 300;
+    }
+
+    .keys {
+        height: 447px;
+        width: 355px;
+        grid-gap: 10px;
+        margin: 10px;
+        font-size: 1.8rem;
+    }
+
+    .num {
+        font-weight: 400;
+    }
+
+    footer {
+        display: none;
+    }
 }
